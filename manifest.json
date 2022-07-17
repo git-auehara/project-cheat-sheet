@@ -1,0 +1,29 @@
+{
+    "name": "Developer Cheat Sheet",
+    "description": "Reference Commands for Developer",
+    "version": "0.01",
+    "manifest_version": 3,
+    "author": "A. Uehara",
+
+    "action": {
+        "default_popup": "./html/index.html",
+        "default_icon": "./assets/icon.jpg"
+    },
+
+    "background":{
+        "service_worker": "./background.js"
+
+    },
+
+    "commands": {
+        "_execute_action": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+F",
+            "mac": "MacCtrl+Shift+F"
+          }
+        }
+      },
+      
+      "permissions": ["tabs"]
+
+}
